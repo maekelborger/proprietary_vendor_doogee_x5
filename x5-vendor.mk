@@ -373,5 +373,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libdpframework
 
-include vendor/doogee/x5/prebuilds.mk
+include vendor/doogee/x5/opengapps.mk
 
