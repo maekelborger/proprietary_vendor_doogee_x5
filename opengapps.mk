@@ -7,12 +7,9 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 PRODUCT_PACKAGES += \
 	CalendarGoogle \
-	Gmail \
 	Drive
 
 GAPPS_EXCLUDED_PACKAGES := \
-	Video \
-	Videos \
 	GooglePackageInstaller
 
 $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
