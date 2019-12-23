@@ -3,11 +3,16 @@
 GAPPS_VARIANT := pico
 GAPPS_FORCE_PACKAGE_OVERRIDES := true
 #GAPPS_FORCE_MATCHING_DPI := true
-DONT_DEXPREOPT_PREBUILTS := true
+#DONT_DEXPREOPT_PREBUILTS := true
+WITH_DEXPREOPT := true
 
 PRODUCT_PACKAGES += \
 	CalendarGoogle \
-	Drive
+        ExchangeGoogle \
+        Gmail \
+        Maps \
+        Drive \
+        PlayGames
 
 GAPPS_EXCLUDED_PACKAGES := \
 	GooglePackageInstaller
